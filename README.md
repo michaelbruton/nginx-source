@@ -6,7 +6,7 @@ Installs NGINX from source based on version.  Based on "tobybro/ansible-nginx-so
 Requirements
 ------------
 
-None.
+* redhat-lsb-core
 
 Role Variables
 --------------
