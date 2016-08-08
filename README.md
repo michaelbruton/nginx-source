@@ -11,9 +11,9 @@ None.
 Role Variables
 --------------
 
-"nginx_src_dir" - Directory to use for building NGINX.
-"nginx_version" - Version to install.
-"nginx_prefix" - Install location of NGINX.
+* "nginx_src_dir" - Directory to use for building NGINX.
+* "nginx_version" - Version to install.
+* "nginx_prefix" - Install location of NGINX.
 
 Dependencies
 ------------
