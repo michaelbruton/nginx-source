@@ -1,4 +1,4 @@
-nginx_source
+nginx-source
 =========
 
 Installs NGINX from source based on version.  Based on "tobybro/ansible-nginx-source" Ansible Galaxy role.
