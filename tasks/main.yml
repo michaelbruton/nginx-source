@@ -47,6 +47,9 @@
 - name: Create '/etc/nginx' directory.
   file: path=/etc/nginx state=directory
 
+- name: Create '/etc/nginx/conf.d' directory.
+  file: path=/etc/nginx/conf.d state=directory
+
 - name: Create '/var/log/nginx' directory.
   file: path=/var/log/nginx state=directory
 
