@@ -1,5 +1,5 @@
 ---
-# tasks file for nginx-sourcea
+# tasks file for nginx-source
 
 - name: YUM install epel-release package.
   yum: name=epel-release state=present
