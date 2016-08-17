@@ -66,4 +66,4 @@
   - make install
 
 - name: Set PID path in '/etc/nginx/nginx.conf' file.
-  lineinfile: dest=/etc/nginx/nginx.conf regexp"^#pid" line="pid        /run/nginx.pid" backrefs=yes
+  lineinfile: dest=/etc/nginx/nginx.conf regexp="^#pid" line="pid        /run/nginx.pid" backrefs=yes
